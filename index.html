@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>MARINDUQUE FESTIVAL'S</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="festival.html">FESTIVALS & CELEBRATIONS</a></li>
+					<li><a href="contact.html">CONTACTS</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<div class="text-box">
+			<h1>MARINDUQUE FESTIVAL'S</h1>
+			<p> Go where you feel the most alive.</p>
+			<a href=""class="hero-btn">Explore more!</a>
+		</div>
+	</section>
+	
+
+    
+<!---------- Marinduque ---------->
+    
+<section class="Home">
+    <div class="Marinduque">
+        <h1>Marinduque</h1>
+        <p>Marinduque is a heart-shaped province with plenty to offer tourists, whether they are into history or nature. The island’s accessibility from Manila makes it a popular weekend destination for those looking to get away from the hustle and bustle of the city.</p>
+        <p>However, a weekend stint is not enough to discover all the attractions the province has to offer. Spend a couple more days to truly experience the local’s friendliness, the beauty of each attraction and the bucolic atmosphere of each town.</p>
+    </div>
+</section>
+    
+<!---------- Footer -----------> 
+
+<section class="footer">
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Copyright © 2022 | It's More Fun With Juan
+    <br>Template by Namina - Design By<br></p>
+</section>    
+    
+    
+    
+    
+    
+    
+    
+    
+<!-------------Javascript for Toggle Menu----------------->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+</body>
+</html>
